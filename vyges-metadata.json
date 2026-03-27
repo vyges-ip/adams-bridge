@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vyges.com/schema/v1/vyges-metadata.schema.json",
+  "x-version": "1.0.0",
+  "name": "adams-bridge",
+  "version": "0.1.0",
+  "description": "IP imported from https://github.com/chipsalliance/adams-bridge",
+  "license": "Apache-2.0",
+  "maturity": "draft",
+  "target": [
+    "asic",
+    "fpga"
+  ],
+  "design_type": [
+    "digital"
+  ],
+  "created": "2026-03-27T21:42:30Z",
+  "updated": "2026-03-27T21:42:30Z",
+  "source": {
+    "type": "git",
+    "url": "https://github.com/chipsalliance/adams-bridge",
+    "commit": "c2f863176bcc773c01a9c2f631536cbcd77a68a0",
+    "private": false,
+    "indexing": true
+  },
+  "maintainers": [
+    {
+      "name": "Vyges",
+      "email": "team@vyges.com",
+      "github": "vyges"
+    }
+  ],
+  "interfaces": [],
+  "parameters": [],
+  "architecture": {
+    "type": "peripheral",
+    "features": []
+  },
+  "categories": {
+    "primary": "uncategorized",
+    "secondary": [],
+    "tags": []
+  },
+  "trust": {
+    "verification_level": "unknown",
+    "maintained": true
+  },
+  "_note": "AI enrichment failed. Manual population needed.",
+  "meta": {
+    "template": {
+      "generator": "upstream-sync-fallback",
+      "generated_at": "2026-03-27T21:42:30Z"
+    },
+    "schema": {
+      "version": "1.0.0"
+    }
+  }
+}
