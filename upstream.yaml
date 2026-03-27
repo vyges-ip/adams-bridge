@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/chipsalliance/adams-bridge
+  branch: main
+  commit: c2f863176bcc773c01a9c2f631536cbcd77a68a0
+import:
+  rtl:
+    - path: "src"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
