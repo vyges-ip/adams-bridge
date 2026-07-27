@@ -3,7 +3,7 @@ upstream:
   type: "standalone"
   repo: https://github.com/chipsalliance/adams-bridge
   branch: main
-  commit: 96cdd1dccadb516d55a990e21c38b897abc648c3
+  commit: 4f5c350c74adbbf049b97bb5a744193a3ab343d3
 import:
   rtl:
     - path: "src"
